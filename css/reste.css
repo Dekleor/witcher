@@ -1,0 +1,32 @@
+.texte {
+    float: none;
+    width: auto;
+    padding-top: 3%;
+    margin-left: 13%;
+    padding-right: 3%;
+    text-align: justify;
+    color: black;
+}
+
+.portrait1 {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding-top: 1%;
+    padding-left: 13%;
+}
+
+.construction {
+  padding-top: 5%;
+  padding-left: 37%;
+}
+
+.garde {
+  margin-left: 25%;
+}
+
+.gallerie{
+  margin: 5px;
+  padding-left: 37%;
+}
