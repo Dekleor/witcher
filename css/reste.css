@@ -6,8 +6,12 @@
     padding-right: 3%;
     text-align: justify;
     color: black;
+    padding-bottom: 3%;
 }
 
+.newComp {
+  text-indent: 1cm;
+}
 .portrait1 {
     float: left;
     width: auto;
@@ -26,7 +30,16 @@
   margin-left: 25%;
 }
 
-.gallerie{
+.gallerie {
   margin: 5px;
   padding-left: 37%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1cm;
+}
+
+table, th, td {
+  border: 1px solid black;
 }
