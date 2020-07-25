@@ -1,11 +1,14 @@
+
+body{
+  background-color: #090202;
+}
 .texte {
-    float: none;
-    width: auto;
     padding-top: 3%;
-    margin-left: 13%;
+    margin-left: 18%;
     padding-right: 3%;
     text-align: justify;
-    color: black;
+    font-size: 18px;
+    color: #eaeaea;
     padding-bottom: 3%;
 }
 
@@ -16,9 +19,9 @@
     float: left;
     width: auto;
     height: auto;
-    margin: 10px;
-    padding-top: 1%;
-    padding-left: 13%;
+    margin: 15px;
+    padding-top: 4%;
+    padding-left: 17%;
 }
 
 .construction {
@@ -26,13 +29,11 @@
   padding-left: 37%;
 }
 
-.garde {
-  margin-left: 25%;
-}
-
 .gallerie {
-  margin: 5px;
-  padding-left: 37%;
+  padding-left: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 table {
