@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Creed;
+  src: url(https://campagne-witcher.000webhostapp.com/font/Creed.ttf);
+}
+
 /* Fixed sidenav, full height */
 .sidenav {
     height: 100%;
@@ -20,6 +25,7 @@
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 24px;
+    font-family: Creed;
     color: #eaeaea;
     display: block;
     border: none;

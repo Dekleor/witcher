@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Creed;
+  src: url(https://campagne-witcher.000webhostapp.com/font/Creed.ttf);
+  font-family: Geometos;
+  src: url(https://campagne-witcher.000webhostapp.com/font/Geometos.ttf);
+}
 
 body{
   background-color: #090202;
@@ -7,9 +13,14 @@ body{
     margin-left: 18%;
     padding-right: 3%;
     text-align: justify;
-    font-size: 18px;
+    font-size: 14px;
     color: #eaeaea;
     padding-bottom: 3%;
+    font-family: Geometos;
+}
+
+.titre {
+  font-family: Creed;
 }
 
 .newComp {
