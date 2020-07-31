@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
+      <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="html, css, JavaScript">
@@ -11,51 +11,13 @@
         <title></title>
     </head>
     <body>
-      <div class="sidenav">
-        <div class="logo">
-          <a href="https://campagne-witcher.000webhostapp.com/index.html"><img src="https://campagne-witcher.000webhostapp.com/images/logo2.png"style="width:200px;height:200px;margin:2%"></a>
-        </div>
-        <button class="dropdown-btn">Univers<i class="fa fa-caret-down"></i></button>
-        <div class="dropdown-container">
-          <a href="https://campagne-witcher.000webhostapp.com/univers/temerie.html">Témérie</a>
-          <a href="https://campagne-witcher.000webhostapp.com/personnages/persononfait.html">La Baronnie</a>
-        </div>
-        <button class="dropdown-btn">La Baronnie<i class="fa fa-caret-down"></i></button>
-        <div class="dropdown-container">
-          <a href="https://campagne-witcher.000webhostapp.com/univers/temerie.html">Le Chateau</a>
-          <a href="https://campagne-witcher.000webhostapp.com/personnages/persononfait.html">Chez les pégus</a>
-          <a href="https://campagne-witcher.000webhostapp.com/personnages/persononfait.html">La forêt des monstres</a>
-          <a href="persononfait.html">Personnalités</a>
-        </div>
-        <button class="dropdown-btn">Personnages<i class="fa fa-caret-down"></i>
-        </button>
-          <div class="dropdown-container">
-            <a href="https://campagne-witcher.000webhostapp.com/personnages/andreas.html">Andréas de Maribor</a>
-            <a href="https://campagne-witcher.000webhostapp.com/personnages/iris.html">Iris Vinatti</a>
-            <a href="https://campagne-witcher.000webhostapp.com/personnages/jorick.html">Jorick V. Cortenbach</a>
-            <a href="https://campagne-witcher.000webhostapp.com/personnages/brann.html">Brann le veneur</a>
-            <a href="https://campagne-witcher.000webhostapp.com/personnages/persononfait.html">Lucie l'Homme d'Armes</a>
-            <a href="https://campagne-witcher.000webhostapp.com/personnages/persononfait.html">Laura le Docteur</a>
-            <a href="https://campagne-witcher.000webhostapp.com/personnages/persononfait.html">Julien l'artisan</a>
-            <a href="https://campagne-witcher.000webhostapp.com/personnages/fendrar.html">Fendrar</a>
-            <a href="https://campagne-witcher.000webhostapp.com/personnages/aedwilbi.html">Aedwilbi Strystor</a>
-            <a href="https://campagne-witcher.000webhostapp.com/personnages/druid.html">La druidesse</a>
-          </div>
-        <button class="dropdown-btn">Règles<i class="fa fa-caret-down"></i>
-        </button>
-            <div class="dropdown-container">
-              <a href="https://campagne-witcher.000webhostapp.com/regles/refonte.html">Refonte Générale</a>
-              <a href="https://campagne-witcher.000webhostapp.com/regles/creation.html">Création de Perso</a>
-              <a href="https://campagne-witcher.000webhostapp.com/regles/combat.html">Règles de Combat</a>
-              <a href="https://campagne-witcher.000webhostapp.com/regles/armesarmures.html">Armes et Armures</a>
-              <a href="https://campagne-witcher.000webhostapp.com/regles/magie.html">Règles de Magie</a>
-        </div>
-      </div>
+
+      <?php include "https://campagne-witcher.000webhostapp.com/menu.php"; ?>
+    
       <div class="portrait1">
-        <img src="https://campagne-witcher.000webhostapp.com/images/iris1.png">
+        <img src="https://campagne-witcher.000webhostapp.com/images/blason_temeria.png">
       </div>
       <div class="texte">
-        <span class=titre><h1>Iris Vinatti</h1></span>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum dui nec pretium fermentum. Nam vitae velit sollicitudin, sagittis ex a, sollicitudin est. Integer id risus arcu. Duis a vulputate neque. Praesent faucibus sollicitudin metus, in cursus est porttitor sit amet. Proin sit amet elit mattis, malesuada urna vel, mollis nisl. Ut ex nisl, mattis eu quam eu, pulvinar congue enim. Aliquam erat volutpat. Curabitur lacus est, molestie sit amet ipsum eget, porta feugiat dui. Maecenas a lectus ut ligula lobortis ornare. Nam vitae ex ac tortor dapibus dignissim vel vitae neque. Suspendisse consectetur congue nibh vitae ullamcorper.
         mollis eget mi vel accumsan. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec euismod congue efficitur. Sed risus quam, hendrerit et pulvinar ut, finibus a libero. Aliquam in pharetra urna. Sed a felis vitae erat auctor pretium eget eget metus. Integer blandit justo quis odio imperdiet, sed porta metus laoreet. In sed nisl ut purus placerat blandit. Donec ac sollicitudin odio, eget ultricies leo. Proin malesuada, ipsum at aliquam facilisis, ipsum orci dictum tortor, venenatis euismod urna arcu eu sapien.
         Etiam at aliquet nunc, eu iaculis ligula. Fusce a justo tincidunt, interdum ligula id, condimentum eros. Ut ac eleifend tellus. Cras lobortis odio rutrum leo suscipit, a laoreet arcu condimentum. Nullam ac rhoncus leo, eu dictum massa. Vivamus venenatis augue nec sapien tincidunt maximus. Maecenas at tortor condimentum, gravida urna sed, facilisis ligula. Fusce ac purus risus. Aliquam auctor vitae sapien non pretium. Fusce augue purus, finibus quis eros ac, gravida maximus est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non lobortis enim. Curabitur eu facilisis neque, vitae accumsan erat. Morbi iaculis ligula nisl, sed scelerisque metus sagittis at.
@@ -64,15 +26,32 @@
         </p>
       </div>
 
-      <div class="gallerie">
-        <img src="https://campagne-witcher.000webhostapp.com/images/iris2.png">
-        <img src="https://campagne-witcher.000webhostapp.com/images/iris3.png">
-        <img src="https://campagne-witcher.000webhostapp.com/images/iris4.png">
-        <img src="https://campagne-witcher.000webhostapp.com/images/iris5.png">
-        <img src="https://campagne-witcher.000webhostapp.com/images/iris6.png">
-        <img src="https://campagne-witcher.000webhostapp.com/images/iris7.png">
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="https://campagne-witcher.000webhostapp.com/images/temeria1.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="https://campagne-witcher.000webhostapp.com/images/temeria2.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="https://campagne-witcher.000webhostapp.com/images/temeria3.jpg" style="width:100%">
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
       </div>
       
+      <script src="https://campagne-witcher.000webhostapp.com/js/slideshow.js"></script>
       <script src="https://campagne-witcher.000webhostapp.com/js/sidemenu.js"></script>
     </body>
 </html>
