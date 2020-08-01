@@ -1,15 +1,20 @@
 body{
   background-color: #090202;
 }
+
 .texte {
-    padding-top: 3%;
-    margin-left: 18%;
-    padding-right: 3%;
-    text-align: justify;
-    font-size: 14px;
-    color: #eaeaea;
-    padding-bottom: 3%;
-    font-family: Geometos;
+  padding-top: 3%;
+  margin-left: 18%;
+  padding-right: 3%;
+  text-align: justify;
+  font-size: 14px;
+  color: #eaeaea;
+  padding-bottom: 3%;
+  font-family: Geometos;
+}
+
+.intro {
+  padding: auto;
 }
 
 .titre {
@@ -19,6 +24,7 @@ body{
 .newComp {
   text-indent: 1cm;
 }
+
 .portrait1 {
     float: left;
     width: auto;
@@ -33,7 +39,7 @@ body{
   padding-left: 37%;
 }
 
-.gallerie {
+.galerie {
   padding-left: 15%;
   display: flex;
   flex-direction: row;
@@ -51,7 +57,7 @@ table, th, td {
 
 @font-face {
   font-family: Creed;
-  src: url(https://campagne-witcher.000webhostapp.com/font/Creed.ttf);
+  src: url(../font/Creed.ttf);
   font-family: Geometos;
-  src: url(https://campagne-witcher.000webhostapp.com/font/Geometos.ttf);
+  src: url(../font/Geometos.ttf);
 }

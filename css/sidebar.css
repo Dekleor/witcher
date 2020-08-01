@@ -12,7 +12,9 @@
 }
 
 .logo {
-  padding-right: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
   
 /* Style the sidenav links and the dropdown button */
@@ -67,5 +69,5 @@
 
 @font-face {
   font-family: Creed;
-  src: url(https://campagne-witcher.000webhostapp.com/font/Creed.ttf);
+  src: url(../font/Creed.ttf);
 }
