@@ -12,7 +12,7 @@
     </head>
     <body>
 
-      <?php include "../menu.php"; ?>
+      <?php include "../menu/menu.php"; ?>
 
       <div class="portrait1">
         <img src="../images/iris1.png">

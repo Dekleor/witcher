@@ -12,7 +12,7 @@
     </head>
     <body>
 
-      <?php include "../menu.php"; ?>
+      <?php include "../menu/menu.php"; ?>
 
       <div class="texte">
         <span class=titre><h2>Principes généraux</h2></span>

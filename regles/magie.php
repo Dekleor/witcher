@@ -12,7 +12,7 @@
     </head>
     <body>
 
-      <?php include "../menu.php"; ?>
+      <?php include "../menu/menu.php"; ?>
 
       <div class="texte">
         <p>La magie est mal adaptée à l’explosivité d’un combat.

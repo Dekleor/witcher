@@ -12,7 +12,7 @@
     </head>
     <body>
 
-      <?php include "../menu.php"; ?>
+      <?php include "../menu/menu.php"; ?>
 
       <div class="texte">
         <p>Tous les persos sont Témériens (+1 Charisme ; Patrie, p.25)</p>
